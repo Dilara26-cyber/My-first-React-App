@@ -1,0 +1,22 @@
+
+.Pokedex__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.Pokedex--win {
+    color: hsl(120, 100%, 34%);
+    font-weight: 700;
+    text-transform: uppercase;
+   
+}
+
+.Pokedex--lost {
+    color: rgb(216, 1, 1);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
